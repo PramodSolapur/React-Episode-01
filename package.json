@@ -1,0 +1,33 @@
+{
+  "name": "namsate-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PramodSolapur/React-Episode-01.git"
+  },
+  "author": "pramod solapur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PramodSolapur/React-Episode-01/issues"
+  },
+  "homepage": "https://github.com/PramodSolapur/React-Episode-01#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

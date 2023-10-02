@@ -4,25 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Namaste React</title>
 </head>
 
 <body>
-    <header>Header goes here</header>
+
     <div id="root">
-        <h1>pramod is here</h1>
+        <h1>Not Rendered</h1>
     </div>
-    <footer>Footer goes here</footer>
 
 
     <!-- core react file -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> -->
+
     <!-- dom manipulation file -->
 
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
     <!-- order of files is always in sequence place react, react-dom and app.js file after react and react dom links -->
 
-    <script src="./App.js">
+
+    <!-- by default browser consider this as a browser script file or normal js file, to tell to browser it is not a regular js file , should use type="module" attribute -->
+    <script type="module" src="./src/App.js">
 
     </script>
 
